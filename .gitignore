@@ -22,4 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Configuration files to ignore (uncomment as needed)
 *.json
+# config.json
+# settings.json
+# secrets.json
