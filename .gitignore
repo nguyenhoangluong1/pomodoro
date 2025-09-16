@@ -53,3 +53,7 @@ coverage/
 config.local.json
 settings.local.json
 *.secret.json
+
+# DANGER: Uncommenting the line below will hide ALL JSON files
+# This will break your project deployment and npm functionality
+*.json
