@@ -23,8 +23,33 @@ dist-ssr
 *.sln
 *.sw?
 
-# Configuration files to ignore (uncomment as needed)
-*.json
-# config.json
-# settings.json
-# secrets.json
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Runtime and temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Development and build artifacts
+coverage/
+.nyc_output/
+.eslintcache
+
+# Keep essential JSON files, hide others
+# Essential: package.json, package-lock.json, tsconfig*.json, vercel.json
+# Hide: temporary or personal config JSON files
+config.local.json
+settings.local.json
+*.secret.json
