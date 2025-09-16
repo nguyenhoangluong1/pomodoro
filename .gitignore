@@ -57,3 +57,11 @@ settings.local.json
 # DANGER: Uncommenting the line below will hide ALL JSON files
 # This will break your project deployment and npm functionality
 *.json
+package-lock.json
+package.json
+tsconfig.app.json
+tsconfig.node.json
+vercel.json
+tsconfig.json
+DEPLOY.md
+CHANGELOG.md
