@@ -2,6 +2,8 @@
 
 A clean, minimal Pomodoro timer with stopwatch functionality built with React, TypeScript, and Tailwind CSS.
 
+**Click for:** `https://pomodoro-cyan-eta.vercel.app/`
+
 ## Features
 
 - **⏱️ Stopwatch**: Track total study time continuously
